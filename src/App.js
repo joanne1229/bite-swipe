@@ -2,7 +2,7 @@ import './index.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const FOURSQUARE_API_KEY = 'fsq35NuuHRG2w5deAFzgdCa/ujRdOU3zUO357uaiPuxtPgk=';
+const FOURSQUARE_API_KEY = process.env.REACT_APP_FOURSQUARE_API_KEY;
 
 
 const allCuisines = [
